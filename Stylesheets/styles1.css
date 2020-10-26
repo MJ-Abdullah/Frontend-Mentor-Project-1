@@ -1,7 +1,22 @@
-* {
+body {
 
     size: 100%;
+    width: 1440px;
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 
+}
+
+
+.flexcontainer {
+
+    display: flex;
+    word-wrap: nowrap;
+
+}
+
+.test {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500, 600;
 }
