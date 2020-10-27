@@ -1,18 +1,15 @@
 body {
 
     size: 100%;
-    width: 1440px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: [Barlow Semi Condensed];
     box-sizing: border-box;
+    padding: 50px;
 
 }
 
+.flexcontainer{
 
-.flexcontainer {
-
-    display: flex;
-    word-wrap: nowrap;
-
+    margin: 50px;
 }
 
 .test {
@@ -21,10 +18,106 @@ body {
     font-weight: 500, 600;
 }
 
+.Profile-sections{
+
+    display: inline-block;
+}
+
+.Profile-sections p{
+
+    display: inline;
+}
+
 .Profile-sections img{
 
     border-style: solid;
-    
+    border-color: hsl(0, 0%, 81%);
     border-radius: 50%;
     border-width: 2px;
+}
+
+.same-color{
+
+    color: hsl(210, 46%, 95%);
+    font-family: Barlow Semi Condensed;
+}
+
+.same-color-2{
+
+    color: hsl(210, 46%, 95%);
+    font-weight: 600;
+}
+
+.same-color-3{
+
+    font-weight: 600;
+}
+
+.low-opacity{
+
+    opacity: 50%;
+}
+
+.high-opacity{
+
+    opacity: 70%;
+}
+
+.darkner{
+
+    color: black;
+}
+
+.little-darkner{
+
+    color: black;
+    opacity: 40%;
+}
+
+.border-style{
+
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+
+.Daniel-Clifford{
+
+    background-color: hsl(263, 55%, 52%);
+
+}
+
+.Daniel-Clifford h4{
+
+    color: hsl(210, 46%, 95%);
+}
+
+.Jonathan-Walters{
+
+    background-color: hsl(217, 19%, 35%);
+}
+
+.Jonathan-Walters h4{
+
+    color: hsl(210, 46%, 95%);
+ }
+
+.Jeanette-Harmon{
+
+    background-color: hsl(0, 0%, 100%);
+}
+
+.Patrick-Abrams{
+
+    background-color: hsl(219, 29%, 14%);
+}
+
+.Patrick-Abrams h4{
+    color: hsl(210, 46%, 95%);
+ }
+
+.Kira-Whittle{
+
+    background-color: hsl(0, 0%, 100%);
 }
