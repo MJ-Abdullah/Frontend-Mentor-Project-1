@@ -34,12 +34,18 @@ body {
     border-color: hsl(0, 0%, 81%);
     border-radius: 50%;
     border-width: 2px;
+    float: left;
 }
 
 .same-color{
 
     color: hsl(210, 46%, 95%);
     font-family: Barlow Semi Condensed;
+}
+
+.names{
+
+    margin-right: 950px;
 }
 
 .same-color-2{
