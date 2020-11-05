@@ -1,27 +1,16 @@
 body {
-
-    size: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     box-sizing: border-box;
     width: 1000px;
     background-color: hsl(210, 46%, 95%);
-    padding: 0 60px 0 60px;
-    margin: 0;
-
 }
 
 .grid-container{
 
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-auto-rows: 540px;
-    grid-gap: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
     margin-top: 0;
     height: 1000px;
-    padding-bottom: 0;
-    width: 1550px;
+    width: 1400px;
 
 }
 
@@ -106,7 +95,6 @@ h4{
     line-height: 30px;
 }
 
-
 .inner-flex{
 
     display: flex;
@@ -114,49 +102,57 @@ h4{
     padding: 35px 35px 35px 35px;
 }
 
-.second-row{
-
-    margin-bottom: 30px;
-
-}
-
 .last-sent{
 
     line-height: 23px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    margin-top: 35px;
 }
+
+/*
+.spcl-last-sents{
+
+    line-height: 23px;
+    margin-top: 35px;
+    
+}
+
+*/
 
 .Daniel-Clifford{
 
     background-color: hsl(263, 55%, 52%);
     grid-column: 1/3;
     grid-row: 1/2;
-    width: 675px;
+    width: 645px;
 }
 
 .Daniel-Clifford h4{
 
     color: hsl(210, 46%, 95%);
+    margin-bottom: 0;
 }
+
 
 .Jonathan-Walters{
 
     background-color: hsl(217, 19%, 35%);
     grid-column: 3/4;
     grid-row: 1/2;
-    width: 317px;
+    width: 267px;
 }
 
 .Jonathan-Walters h4{
 
     color: hsl(210, 46%, 95%);
+    margin-bottom: 0;
 }
 
 .danJona-bottom-plus-height{
 
     margin-top: 100px;
     margin-bottom: 0;
-    height: 360px;
+    height: 305px;
 }
 
 .Jeanette-Harmon{
@@ -164,8 +160,13 @@ h4{
     background-color: hsl(0, 0%, 100%);
     grid-column: 1/2;
     grid-row: 2/3;
-    width: 317px;
+    width: 267px;
 
+}
+
+.Jeanette-Harmon h4{
+
+    margin-bottom: 0;
 }
 
 .Patrick-Abrams{
@@ -173,18 +174,19 @@ h4{
     background-color: hsl(219, 29%, 14%);
     grid-column: 2/4;
     grid-row: 2/3;
-    width: 675px;
+    width: 645px;
 }
 
 .patJean-height{
 
-    height: 360px;
+    height: 305px;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 .Patrick-Abrams h4{
     color: hsl(210, 46%, 95%);
+    margin-bottom: 0;
 }
 
 .Kira-Whittle{
@@ -194,7 +196,13 @@ h4{
     grid-row: 1/3;
     padding-top: 50px;
     padding-bottom: 0;
-    width: 270px;
-    height: 850px;
+    width: 267px;
+    height: 775px;
     margin-top: 100px;
+}
+
+.Kira-Whittle h4{
+
+    margin-top: 50px;
+    margin-bottom: 10px;
 }

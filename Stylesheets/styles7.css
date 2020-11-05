@@ -1,27 +1,18 @@
 body {
-
-    size: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     box-sizing: border-box;
-    width: 1000px;
     background-color: hsl(210, 46%, 95%);
-    padding: 0 60px 0 60px;
-    margin: 0;
-
+    padding-top: 0;
 }
 
 .grid-container{
 
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-auto-rows: 540px;
-    grid-gap: 30px;
-    margin-left: 10px;
-    margin-right: 10px;
+    grid-gap: 20px;
+    padding-top: 0;
     margin-top: 0;
     height: 1000px;
-    padding-bottom: 0;
-    width: 1550px;
+    border: 1px solid black;
 
 }
 
@@ -34,10 +25,8 @@ body {
 .Profile-sections{
 
     display: grid;
-    grid-template-columns: auto auto;
     grid-auto-rows: 20px;
-    margin-top: 0;
-    margin-bottom: 0;
+    grid-gap: 0;
 }
 
 .Profile-sections img{
@@ -46,14 +35,15 @@ body {
     border-style: solid;
     border-color: hsl(0, 0%, 81%);
     border-radius: 50%;
+    width: 45px;
     border-width: 2px;
+    margin-right: 0;
 }
 
 .names{
 
     grid-column: 2/3;
     grid-row: 1/2;
-
 }
 
 .line-breaker{
@@ -106,7 +96,6 @@ h4{
     line-height: 30px;
 }
 
-
 .inner-flex{
 
     display: flex;
@@ -114,16 +103,47 @@ h4{
     padding: 35px 35px 35px 35px;
 }
 
-.second-row{
-
-    margin-bottom: 30px;
-
-}
-
 .last-sent{
 
     line-height: 23px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+    margin-top: 35px;
+}
+
+.names-1{
+
+    margin-left: -260px;
+    margin-bottom: 10px;
+    font-weight: 70;
+    font-family: Helvetica;
+    margin-top: 5px;
+}
+
+.jobs-1{
+
+    margin-left: -260px;
+    margin-top: 7px;
+    font-size: 16px;
+    font-weight: 0;
+}
+
+.names-2{
+
+    margin-left: -20px;
+    margin-bottom: 15px;
+    font-weight: 70;
+    font-family: Helvetica;
+    margin-top: 5px;
+
+}
+
+.jobs-2{
+
+    margin-left: -20px;
+    margin-top: 7px;
+    font-size: 16px;
+    font-weight: 0;
+
 }
 
 .Daniel-Clifford{
@@ -131,12 +151,14 @@ h4{
     background-color: hsl(263, 55%, 52%);
     grid-column: 1/3;
     grid-row: 1/2;
-    width: 675px;
+    width: 625px;
+    margin: 0;
 }
 
 .Daniel-Clifford h4{
 
     color: hsl(210, 46%, 95%);
+    margin-bottom: 0;
 }
 
 .Jonathan-Walters{
@@ -144,19 +166,20 @@ h4{
     background-color: hsl(217, 19%, 35%);
     grid-column: 3/4;
     grid-row: 1/2;
-    width: 317px;
+    width: 227px;
 }
 
 .Jonathan-Walters h4{
 
     color: hsl(210, 46%, 95%);
+    margin-bottom: 0;
 }
 
 .danJona-bottom-plus-height{
 
-    margin-top: 100px;
+    margin-top: 20px;
     margin-bottom: 0;
-    height: 360px;
+    height: 335px;
 }
 
 .Jeanette-Harmon{
@@ -164,8 +187,13 @@ h4{
     background-color: hsl(0, 0%, 100%);
     grid-column: 1/2;
     grid-row: 2/3;
-    width: 317px;
+    width: 227px;
 
+}
+
+.Jeanette-Harmon h4{
+
+    margin-bottom: 0;
 }
 
 .Patrick-Abrams{
@@ -173,18 +201,20 @@ h4{
     background-color: hsl(219, 29%, 14%);
     grid-column: 2/4;
     grid-row: 2/3;
-    width: 675px;
+    width: 625px;
+    margin: 0;
 }
 
 .patJean-height{
 
-    height: 360px;
-    margin-top: 0;
+    height: 290px;
+    margin-top: -200px;
     margin-bottom: 0;
 }
 
 .Patrick-Abrams h4{
     color: hsl(210, 46%, 95%);
+    margin-bottom: 0;
 }
 
 .Kira-Whittle{
@@ -194,7 +224,23 @@ h4{
     grid-row: 1/3;
     padding-top: 50px;
     padding-bottom: 0;
-    width: 270px;
-    height: 850px;
-    margin-top: 100px;
+    width: 22   7px;
+    height: 735px;
+    margin-top: 20px;
+}
+
+.Kira-Whittle .Profile-sections{
+
+    margin-top: -20px;
+}
+
+.Kira-Whittle h4{
+
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+.spcl-last-sent{
+    line-height: 23px;
+    margin-top: 25px;
 }
