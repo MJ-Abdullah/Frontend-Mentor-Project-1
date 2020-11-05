@@ -28,7 +28,11 @@ body {
 .Profile-sections img{
     grid-column: 1/2;
     grid-row: 1/2;
+    border-style: solid;
+    border-color: hsl(0, 0%, 81%);
+    border-radius: 50%;
     width: 52px;
+    border-width: 2px;
     margin-right: 0;
 }
 
@@ -109,6 +113,18 @@ body {
     border-radius: 10px;
 }
 
+#water-img{
+
+    position: absolute;
+    right: 730px;
+    top: 30px;
+}
+
+#water-img img{
+
+    width: 150px;
+}
+
 h4{
 
     font-size: 25px;
@@ -176,8 +192,22 @@ h4{
 
 .Daniel-Clifford h4{
 
+    font-size: 25px;
+    line-height: 30px;
+    position: absolute;
+    top: 110px;
+    width: 660px;
+    padding: 0;
+    margin-right: 400px;
     color: hsl(210, 46%, 95%);
     margin-bottom: 0;
+}
+
+.Daniel-Clifford .last-sent{
+    position: absolute;
+    top: 270px;
+    width: 600px;
+    margin-top:-15px;
 }
 
 .Jonathan-Walters{
