@@ -1,0 +1,193 @@
+@media(max-width: 450px){
+
+    body{
+
+        padding-right: 60px;
+        padding-left: 15px;
+    }
+
+    .grid-container {
+
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        
+    }
+
+    .Daniel-Clifford, .Jonathan-Walters, .Jeanette-Harmon, .Patrick-Abrams, .Kira-Whittle{
+
+        width: 235px;
+        margin-bottom: 30px;
+        
+    }
+
+    /*----------Daniel Clifford----------*/
+
+    .Daniel-Clifford{
+
+        height: 710px;
+    }
+
+    .Daniel-Clifford h4{
+
+        width: 230px;
+        margin-right: 0;
+        line-height: 29px;
+        position: static;
+        margin-top: 40px;
+    }
+
+    .Daniel-Clifford .secondary-1{
+
+        padding: auto;
+        margin: 0;
+    }
+
+    #water-img{
+
+        right: 48px;
+    }
+
+    #water-img img{
+
+        width: 70px;
+    }
+
+    .Daniel-Clifford .last-sent{
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: 30px;
+        width: 255px;
+        position: static;
+    }
+
+    /*----------Jonathan Walters----------*/
+
+    .Jonathan-Walters{
+
+        height: 320px;
+    }
+
+    .Jonathan-Walters .secondary-2{
+
+        padding-right: 0;
+        margin: 0;
+    }
+
+    .secondary-2 h4{
+
+        margin-right: 0;
+        margin-top: 35px;
+        padding-right: 0;
+        width: 260px;
+    }
+
+    .Jonathan-Walters .last-sent{
+
+        font-size: 18px;
+        width: 255px;
+        margin-top: 20px;
+        
+    }
+
+    /*----------Jeanette Harmon----------*/
+
+    .Jeanette-Harmon{
+
+        height: 300px;
+    }
+
+    .Jeanette-Harmon .secondary-3{
+
+        padding: auto;
+    }
+
+    .Jeanette-Harmon .last-sent{
+
+        font-size: 18px;
+    }
+
+    /*----------Patrick Abrams----------*/
+
+    .Patrick-Abrams{
+
+        height: 700px;
+    }
+
+    .Patrick-Abrams .secondary-4{
+
+        padding: auto;
+        margin: 0;
+    }
+
+    .Patrick-Abrams h4{
+        margin-top: 50px;
+        font-size: 25px;
+        width: 230px;
+        margin-right: 0;
+    }
+
+    .Patrick-Abrams .last-sent{
+        
+        font-size: 18px;
+        line-height: 25px;
+        width: 255px;
+        margin-right: 0;
+    }
+
+    /*----------Kira Whittle----------*/
+
+    .Kira-Whittle{
+
+        height: 800px;
+    }
+
+    .Kira-Whittle .secondary-5{
+
+        padding: auto;
+        margin: 0;
+    }
+
+    .Kira-Whittle .spcl-last-sent{
+        font-size: 18px;
+        line-height: 25px;
+        margin-top: 25px;
+        width: 255px;
+        margin-right: 0;
+    }
+
+    /*----------Profile Sections----------*/
+
+    .Profile-sections .names-1, .Profile-sections .names-2{
+        
+        margin-left: -35px;
+        margin-bottom: 15px;
+        font-weight: 70;
+        font-family: Helvetica;
+        margin-top: 10px;
+    }
+
+    .Profile-sections .jobs-1, .Profile-sections .jobs-2{
+
+        margin-left: -35px;
+        margin-top: 12px;
+        font-size: 16px;
+        font-weight: 0;
+    }
+
+    .Daniel-Clifford .Profile-sections{
+
+        margin-left: 0;
+    }
+
+    .Daniel-Clifford .Profile-sections .names-1{
+
+        margin-left: -35px;
+    }
+
+    .Daniel-Clifford .Profile-sections .jobs-1{
+
+        margin-left: -35px;
+    }
+}
