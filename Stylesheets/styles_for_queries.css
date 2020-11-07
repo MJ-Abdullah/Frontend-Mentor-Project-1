@@ -10,7 +10,6 @@
 
         display: flex;
         flex-direction: column;
-        flex-wrap: wrap;
         justify-content: space-evenly;
         
     }
@@ -18,7 +17,6 @@
     .Daniel-Clifford, .Jonathan-Walters, .Jeanette-Harmon, .Patrick-Abrams, .Kira-Whittle{
 
         width: 375px;
-        
     }
 
     /*----------Daniel Clifford----------*/
@@ -84,6 +82,11 @@
         
     }
 
+    .danJona-bottom-plus-height{
+
+        margin: auto;
+    }
+
     /*----------Jeanette Harmon----------*/
 
     .Jeanette-Harmon{
@@ -126,11 +129,17 @@
         width: 350px;
     }
 
+    .patJean-height{
+
+        margin: auto;
+    }
+
     /*----------Kira Whittle----------*/
 
     .Kira-Whittle{
 
         height: 570px;
+        margin-top: auto;
     }
 
     .Kira-Whittle .secondary-5{
